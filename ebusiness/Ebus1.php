@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <link rel = "stylesheet" href="../mystylesheet2.css" type="text/css" />
         <title> Select Product </title>
        <!--jQuery-->
        <script src = "https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
     </head>
     <body>
-            <h4>Select a Product</h4>
+        
+        
+        <div>
+             
+                 <ul>
+                       <li> <a  href = "../CV/CV_Page1.html">Curriculum Vitae</a></li>
+                       <li> <a href = "../Interests/sports.html">My Interests</a></li>
+                       <li> <a href = "../ebusiness/Ebus1.php">Ebus</a></li> 
+                        <li> <a href = "../CloudServices/about_cloud.html">Cloud Services</a> </li>
+                 </ul>
+        
+        </div>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+            <h1>Select a Product</h1>
             
             <br/>
             
@@ -41,7 +59,7 @@
                 
                 <br/>
                 
-                <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+                <button type="submit" id="btnProceed" disabled> Add to Shopping Cart</button>
                     
             </form>
                     
