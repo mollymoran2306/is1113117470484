@@ -1,0 +1,85 @@
+html,body{
+ width:100%;
+ height:100%;
+ background: url("https://images.unsplash.com/photo-1490131784822-b4626a8ec96a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cd8c16458435813a798bc9de0435ad3d&auto=format&fit=crop&w=1500&q=80")no-repeat center fixed;
+ background-size:cover;
+}
+
+h1 {
+    color:black;
+    padding-top:10%;
+    padding-left:10%;
+    margin-left:23%;
+    }
+p
+    {
+    padding-left:20%;
+    margin-left:20%;
+    }
+
+ a
+ {
+     margin-left:35%;
+ }
+ 
+ button {
+     margin-left:35%;
+ }
+form {
+    margin-left:35%;
+}
+img {
+    margin-left:40%;
+    padding-top:15%
+    
+}
+ul{
+ width:100%;
+ position:absolute;
+ background:grey;
+ height:10%;
+}
+
+ul li{
+ display:inline;
+ list-style:none;
+ position:relative;
+ top:30%;
+}
+
+ul li a{
+ text-decoration: none;
+ color:white;
+ margin:300px;
+ font-size:160%;
+}
+
+
+ul li a:hover{
+ background:white;
+ color:#b7d7e8;
+ padding:2%;
+}
+
+.paymentdetails
+{
+    margin:20%;
+}
+
+label {
+    margin-left:20%
+    margin-top:20%;
+}
+
+
+
+footer {
+    position:fixed;
+    padding-left:2%;
+    left: 0;
+    bottom: 0;
+    text-align:center;
+    color:#900C3F;
+    padding-top:30px;
+    margin-top:50px;
+      }
