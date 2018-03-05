@@ -64,11 +64,11 @@ ul li a:hover{
 
 .paymentdetails
 {
-    margin:20%;
+    margin:200%;
 }
 
 label {
-    margin-left:20%
+    margin-left:20%;
     margin-top:20%;
 }
 
@@ -84,3 +84,12 @@ footer {
     padding-top:30px;
     margin-top:50px;
       }
+      
+.payment {
+  
+    position: absolute;
+}
+
+.btnproceed {
+    left:20%;
+}
