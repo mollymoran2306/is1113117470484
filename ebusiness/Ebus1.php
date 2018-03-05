@@ -6,24 +6,29 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
-        <link rel = "stylesheet" href="../ebusstylesheet.css" type="text/css" />
+        
+        <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png">
+        
     </head>
+        <div class="topnav">
     <body>
-        
-        <div>
+         
+         <div>
              
-                 <ul>
-                       <li> <a  href = "../ebusiness/Ebus1.php">Shop</a></li>
-                     
-                       
-                        <li> <a href = "../CloudServices/nimbuscloudservices.html">About Cloud</a> </li>
-                        <li> <a href = "../CloudServices/nimbuscloudservices.html">Home</a></li>
-                 </ul>
+         <ul>
+           <li> <a  href = "homepage.html">Home    </a> </li>
+    
+          <li> <a href = "ebusiness/Ebus1.php">Shop</a> </li>
+           <li> <a href = "cloudcontact.html">Contact     </a> </li>
+           <li> <a href = "CloudServices/About_Cloud.html"> Cloud Services</a></li>
+        </ul>
         
         </div>
         
-          <div class="container2">
+        <div class="container2">
           <h1>Select a Product</h1>
               
           <br>

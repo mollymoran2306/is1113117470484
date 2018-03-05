@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start()
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,26 +11,15 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
-        <link rel="stylesheet" href="../ebusstylesheet.css" type="text/css"/>
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
+        
+        <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png">
+        
     </head>
     
     <body>
         
-         <div>
-             
-                 <ul>
-                       <li> <a  href = "../ebusiness/Ebus1.php">Shop</a></li>
-                     
-                       
-                        <li> <a href = "../CloudServices/about_cloud.html">About Cloud</a> </li>
-                        <li> <a href = "../CloudServices/nimbuscloudservices.html">Home</a></li>
-                 </ul>
-        
-        </div>
-        
-       
-        <h1>Please enter your payment details</h1>
-        </br>
+        <h4 class="heading2">Please enter your payment details</h4>
         
         <form action="Ebus3.php" method="POST">
             
