@@ -4,6 +4,7 @@ html,body{
  height:100%;
  background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=95618c0e060665fcf0c9e489d8b22982&auto=format&fit=crop&w=1050&q=80")no-repeat center fixed;
  background-size:cover;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 
@@ -36,7 +37,7 @@ ul li{
 ul li a{
  text-decoration: none;
  color:white;
- margin:90px;
+ margin:110px;
  font-size:160%;
 }
 
@@ -50,9 +51,11 @@ ul li a:hover{
 h1 {
  color:#900C3F;
  text-align:center;
+ font-size:400%;
 }
 
 p {
  color:#900C3F;
  padding-left:10%;
 }
+

@@ -3,20 +3,21 @@ html,body{
  height:100%;
  background: url("https://images.unsplash.com/photo-1490131784822-b4626a8ec96a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cd8c16458435813a798bc9de0435ad3d&auto=format&fit=crop&w=1500&q=80")no-repeat center fixed;
  background-size:cover;
+ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 h1 {
     color:white;
 }
 img {
-    margin-left:40%;
+    margin-left:35%;
     padding-top:15%
     
 }
 ul{
  width:100%;
  position:absolute;
- background:grey;
+ background:white;
  height:10%;
 }
 
@@ -29,21 +30,24 @@ ul li{
 
 ul li a{
  text-decoration: none;
- color:white;
- margin:180px;
+ color:black;
+ margin:169px;
  font-size:160%;
 }
 
 
 ul li a:hover{
  background:white;
- color:#b7d7e8;
+ color:#2EAFF9;
  padding:2%;
 }
 
-
-
-
+p 
+{
+ text-align:center;
+ margin-left:10%;
+ margin-right:10%;
+}
 
 
 footer {

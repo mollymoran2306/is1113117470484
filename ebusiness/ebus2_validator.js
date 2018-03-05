@@ -39,7 +39,7 @@ function validatePin(){
     
 var pin;
     
-    pin = document.getElementById("pin").value;
+    pin = document.getElementById("userpin").value;
     
     if (pin == ""){
         alert("Please enter your PIN.");
@@ -48,7 +48,7 @@ var pin;
         alert("Your PIN must be 4 digits.");
     }
     else{
-        enablebtncontinue();
+        enablebtnPurchase()
     }
 }
 
@@ -57,13 +57,13 @@ function validateInputEmail(email) {
     return re.test(email);
     }
     
-function enablebtncontinue(){
+function enablebtnPurchase(){
     
-    $('#btncontinue').prop('disabled', false);
+    $('#btnPurchase').prop('disabled', false);
     }
     
-function disablebtncontinue() {
+function disablebtnPurchase() {
     
-    $('#btncontinue').prop('disabled', true);
+    $('#btnPurchase').prop('disabled', true);
     }
     
