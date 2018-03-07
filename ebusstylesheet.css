@@ -8,9 +8,10 @@ html,body{
 
 h1 {
     color:black;
-    padding-top:10%;
+    padding-top:0%;
     padding-left:10%;
     margin-left:29%;
+    margin-top:0%;
     }
 p
     {
@@ -64,7 +65,7 @@ ul li a:hover{
 
 .paymentdetails
 {
-    margin:200%;
+    margin:20%;
 }
 
 label {
@@ -92,4 +93,25 @@ footer {
 
 .btnproceed {
     left:20%;
+}
+
+.nimbus
+{
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.products
+{
+    margin-left:-16%;
+}
+
+.payment
+{
+    margin-left:20%;
+}
+
+.paymentheading
+{
+    margin-left:19%;
 }

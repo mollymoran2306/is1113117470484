@@ -5,6 +5,8 @@ session_start()
 <!DOCTYPE html>
 <html>
     <head>
+         <meta charset="utf-8"/>
+        
         <title>Receipt</title>
         
         <link rel="stylesheet" href="../ebusstylesheet.css" type="text/css"/>
@@ -24,7 +26,11 @@ session_start()
                  </ul>
         
         </div>
-        
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
            <h1>Purchase Receipt</h1>
         
         <?php  

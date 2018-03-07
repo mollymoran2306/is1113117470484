@@ -5,6 +5,7 @@ session_start()
 <!DOCTYPE html>
 <html>
     <head>
+         <meta charset="utf-8"/>
         <title>Enter Details</title>
         
         <!--jQuery-->
@@ -18,6 +19,7 @@ session_start()
     </head>
     
     <body>
+        
           <div>
              
                  <ul>
@@ -30,7 +32,14 @@ session_start()
                  </ul>
         
         </div>
-        <h1 >Please enter your payment details</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="payment">
+        <h1>Please enter your payment details</h1>
         
         <form action="Ebus3.php" method="POST">
             
@@ -41,8 +50,8 @@ session_start()
             
             <br>
             
-            <label for="useremail" class="lblemail">
-                Email address:
+            <label for="useremail">
+                Email:
                 <input type="email" id="useremail" name="useremail" placeholder="example@gmail.com">
             </label>
             
@@ -70,6 +79,6 @@ session_start()
           $_SESSION["total"] = $_POST["total"];
           
         ?>
-        
+        </div>
     </body>
 </html>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <meta charset="utf-8"/>
         <title>Select Product</title>
         
         <!--jQuery-->
@@ -13,7 +14,7 @@
         <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png">
         
     </head>
-        <div class="topnav">
+       
     <body>
          
           <div>
@@ -29,13 +30,16 @@
         
         </div>
         
-        <div class="container2">
+        <p><img class="nimbus" src="http://www.nimbusnetworks.com/wp-content/uploads/2016/09/logo.png" alt="Nimbus" style="width:250px;height:50px;margin-left:0%;"></p>
+        
+       
           <h1>Select a Product</h1>
               
           <br>
               
           <form method="POST" action="Ebus2.php">
             
+           <div class="products">
            
             <label for="salesforce" >
               <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -95,7 +99,7 @@
               <input type="text" id="total" name="total" value="0.00" readonly/>
               <br>
             </label>
-      
+      </div>
             <br>
             
             <div class="btnadd">   
@@ -108,8 +112,8 @@
              
           <br>
             
-          
+         
           <a class="btnclear" role="button" href="Ebus1.php">Clear Choice</a>
-        </div>
+  
     </body>
 </html>
